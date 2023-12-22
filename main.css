@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient( 300deg, #212529 50% , #ced4da 50%);
+    font-family: "Poppins" , sans-serif;
+}
+header .logo {
+    text-decoration: none;
+    color: #212529;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: fixed;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+header {
+    margin: 50px;
+    font-weight: 600;
+   
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.error_message {
+    display: none;
+}
+.container {
+    background: #e9ecef;
+    max-width: 600px;
+    height: auto;
+    padding: 30px 40px 20px;
+    border-radius: 5px;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+#wrapper input {
+    background: none;
+    outline: 1px solid #212529;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#wrapper button {
+    background: #212529;
+    color: #e9ecef;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+#wrapper button:hover ,
+#wrapper button:focus {
+    background: #1e1f20;
+    box-shadow: 0 0 5px #1e1f20;
+}
+.task_message {
+    margin-top: 20px;
+  
+}
